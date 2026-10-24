@@ -14,6 +14,8 @@ build-and-install.sh, or the steps in addons/README.md; tools/theme.sh for theme
 install on an installed add-on updates it (pm install -r). set writes the key into a theme folder of your own and
 pushes it with tools/theme.sh, as themes/README.md describes; it never edits the project's themes.
 """
+import utils.transport
+import utils.session
 import json
 import os
 import re
